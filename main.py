@@ -27,8 +27,10 @@ AUTH_TOKEN = os.environ.get('AUTH_TOKEN')
 
 API_KEY_NAME = 'python'
 ACCOUNT_SID = 'ACd3fd405688dcd594ee8f73ca840931ff'
-PHONE_NUMBER = '+19165896015'
-MY_PHONE_NUMBER = '+819058456340'
+
+# Set your Twilio / own phone number
+PHONE_NUMBER = '+0000000000'
+MY_PHONE_NUMBER = '+0000000000'
 
 account_sid = ACCOUNT_SID
 auth_token = AUTH_TOKEN
